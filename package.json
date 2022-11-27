@@ -1,0 +1,12 @@
+{
+  "name": "ts-kevin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch src/ -e ts --exec ts-node ./src/index.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
